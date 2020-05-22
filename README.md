@@ -27,7 +27,7 @@ The example of prediction results are shown in the table below:
 | ... | ... | ... | ... |
 
 Prediction scores range from 0 to 50000. Higher scores indicate lower binding affinities. Peptides with scores below 500 can be considered to be strong binders. However, the specific threshold for classification might vary in different experimental setups.
-
+.
 ## How to Train a new Model
 In order to build your own model using new training data, run MATHLA.py using the following command:
 
