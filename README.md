@@ -15,9 +15,9 @@ Nvidia GPU and Cuda 9.2 toolkit are recommended for increasing training and test
     ```
     https://github.com/MATHLAtools/MATHLA.git
     ```
-2. Run MATHLA.so
+2. Run MATHLA.py
     ```
-    python ./MATHLA.so [-m test [-te [the path to test files] -md [the path to model file] -o [the path to prediction results]]
+    python ./MATHLA.py [-m test [-te [the path to test files] -md [the path to model file] -o [the path to prediction results]]
     ```
 The example of prediction results are shown in the table below:
 | allele | peptide | prediction scores | label |
@@ -32,7 +32,7 @@ Prediction scores range from 0 to 50000. Higher scores indicate lower binding af
 In order to build your own model using new training data, run MATHLA.py using the following command:
 
 ```
-python ./MATHLA.so -m train [-tr [the path to training file] -md [the path to model file]]
+python ./MATHLA.py -m train [-tr [the path to training file] -md [the path to model file]]
 ```
 The framework will train a new model by using the Training Data.
 
