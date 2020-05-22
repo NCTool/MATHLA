@@ -2,7 +2,7 @@ import os
 import warnings
 import torch
 
-from MATHLA import getParm, Mid, getParser
+from lib import getParm, Mid, getParser
 
 warnings.filterwarnings("ignore")
 seed = 1
